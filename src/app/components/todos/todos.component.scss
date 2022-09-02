@@ -1,0 +1,24 @@
+.todos {
+    max-width: 40vw;
+
+    margin-top: 50px;
+
+    display: flex;
+    flex-direction: column;
+
+    border: 1px solid #ccc;
+}
+
+.todo {
+    padding: 20px 10px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    border-bottom: 1px solid #000;
+
+    &.done .content {
+        text-decoration: line-through;
+    }
+}
